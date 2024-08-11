@@ -4,7 +4,6 @@ import 'package:wifi_chat_app/domain/app_service.dart';
 import 'package:wifi_chat_app/domain/app_state.dart';
 
 import 'builder/app_step_view_builder.dart';
-import 'components/info_panel.dart';
 
 const kPinkColor = Color(0xFFC80099);
 const kBlueColor = Color(0xFF0043D5);

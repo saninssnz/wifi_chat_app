@@ -4,7 +4,6 @@ import 'package:geolocator/geolocator.dart';
 import 'package:provider/provider.dart';
 import 'package:wifi_chat_app/domain/app_service.dart';
 import 'package:wifi_chat_app/presentation/app.dart';
-import 'package:wifi_chat_app/presentation/components/file_preview.dart';
 import 'package:wifi_chat_app/uikit/action_button.dart';
 
 import '../components/device_preview.dart';

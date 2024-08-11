@@ -56,17 +56,17 @@ class _IdleViewState extends State<IdleView> {
     return Center(
       child: Column(
         children: [
-          if (Platform.isIOS)
-            Padding(
-              padding: const EdgeInsets.only(bottom: 10.0),
-              child: TextFormField(
-                decoration: const InputDecoration(
-                  labelText: 'Device Name',
-                  hintText: 'Enter the name of your device',
-                ),
-                controller: controller,
-              ),
-            ),
+          // if (Platform.isIOS)
+          //   Padding(
+          //     padding: const EdgeInsets.only(bottom: 10.0),
+          //     child: TextFormField(
+          //       decoration: const InputDecoration(
+          //         labelText: 'Device Name',
+          //         hintText: 'Enter the name of your device',
+          //       ),
+          //       controller: controller,
+          //     ),
+          //   ),
           ActionButton(
             onTap: () {
               context.read<AppService>().initialize(controller.text);

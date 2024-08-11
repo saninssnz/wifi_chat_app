@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:nearby_service/nearby_service.dart';
 import 'package:provider/provider.dart';
 import 'package:wifi_chat_app/domain/app_service.dart';
-import 'package:wifi_chat_app/presentation/listener/files_listener.dart';
 import 'package:wifi_chat_app/presentation/listener/messages_listener.dart';
 import 'package:wifi_chat_app/uikit/action_button.dart';
 
